@@ -1,11 +1,5 @@
-// Menunggu seluruh konten halaman dimuat sebelum menjalankan JavaScript
 window.onload = function() {
-    
-    // =============================================
-    // FUNGSI LAMA: Sapaan dan Penanganan Form
-    // =============================================
 
-    // 1. Mengisi nama pengguna secara dinamis
     const nama = prompt("Masukkan nama Anda:");
     if (nama) {
         document.getElementById("nama-pengguna").innerText = nama;
@@ -13,7 +7,6 @@ window.onload = function() {
         document.getElementById("nama-pengguna").innerText = "Guest";
     }
 
-    // 2. Menangani submit formulir
     const messageForm = document.getElementById("message-form");
     messageForm.addEventListener("submit", function(event) {
         event.preventDefault();
@@ -38,9 +31,6 @@ window.onload = function() {
         messageForm.reset();
     });
 
-    // =============================================
-    // FUNGSI BARU: Efek Scroll Halus (Smooth Scroll)
-    // =============================================
     document.querySelectorAll('nav a[href^="#"]').forEach(anchor => {
         anchor.addEventListener('click', function (e) {
             e.preventDefault();

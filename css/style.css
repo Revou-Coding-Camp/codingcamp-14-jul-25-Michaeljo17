@@ -1,4 +1,3 @@
-/* Pengaturan Dasar */
 body {
     font-family: Arial, sans-serif;
     margin: 0;
@@ -6,7 +5,6 @@ body {
     background-color: #f4f4f4;
 }
 
-/* Header dan Navigasi */
 header {
     display: flex;
     justify-content: space-between;
@@ -38,7 +36,6 @@ nav a {
     font-weight: bold;
 }
 
-/* Konten Utama */
 main {
     padding: 2rem;
 }
@@ -50,14 +47,12 @@ section {
     border-radius: 8px;
 }
 
-/* Banner */
 .banner-image {
     width: 100%;
     height: auto;
     margin-top: 1rem;
 }
 
-/* Kantor Pusat */
 .headquarters-section h2, .message-us-section h2, .welcome-section h1 {
     text-align: center;
     margin-bottom: 1.5rem;
@@ -78,18 +73,17 @@ section {
     border: 1px solid #ccc;
 }
 
-/* Formulir Message Us */
 .form-container {
     display: flex;
-    gap: 2rem; /* Jarak antara form dan output */
+    gap: 2rem; 
 }
 
 form {
-    flex: 1; /* Form mengambil setengah bagian */
+    flex: 1;
 }
 
 .form-output {
-    flex: 1; /* Output mengambil setengah bagian */
+    flex: 1; 
     background-color: #f9f9f9;
     padding: 1.5rem;
     border: 1px solid #ddd;
@@ -113,7 +107,7 @@ textarea {
     padding: 8px;
     border: 1px solid #ccc;
     border-radius: 4px;
-    box-sizing: border-box; /* Agar padding tidak menambah lebar */
+    box-sizing: border-box; 
 }
 
 button {
@@ -131,7 +125,6 @@ button:hover {
     background-color: #0056b3;
 }
 
-/* Footer */
 footer {
     text-align: center;
     padding: 1rem;
@@ -139,10 +132,9 @@ footer {
     color: white;
 }
 
-/* Desain Responsif untuk Mobile */
 @media (max-width: 768px) {
     .form-container {
-        flex-direction: column; /* Ubah layout menjadi kolom */
+        flex-direction: column; 
     }
 
     .city-container {
