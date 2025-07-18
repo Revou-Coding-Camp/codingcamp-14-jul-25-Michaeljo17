@@ -22,4 +22,4 @@ Ini adalah proyek website profil perusahaan sederhana yang dibuat sebagai bagian
 3.  Klik dua kali pada file `index.html` untuk membukanya di browser.
 
 ---
-*Dibuat oleh Michaeljo*
+*Dibuat oleh Michaeljo untuk Revou*
