@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arunika Digital - Solusi Digital Kreatif</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <header>
+        <div class="logo">Arunika Digital</div>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#profile">Our Profile</a></li>
+                <li><a href="#message-us">Message Us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home" class="welcome-section">
+            <h1>Hi <span id="nama-pengguna"></span>, Welcome To Arunika Digital</h1>
+            <img src="https://via.placeholder.com/1200x380.png/007BFF/FFFFFF?text=Membawa+Ide+Anda+Menyinari+Dunia+Digital" alt="Website Banner" class="banner-image">
+        </section>
+
+        <section id="profile" class="profile-content-merged">
+            <div class="about-us">
+                <h2>Tentang Kami</h2>
+                <p>
+                    Arunika Digital lahir dari secangkir kopi dan sebuah keyakinan: bahwa setiap ide brilian, sekecil apa pun, berhak mendapatkan panggung digitalnya sendiri. Kami bukan sekadar agensi digital; kami adalah rekan diskusi, arsitek solusi, dan partner pertumbuhan bisnis Anda.
+                </p>
+                <p>
+                    Bermula dari sebuah studio kreatif di Bandung, semangat kolaborasi membawa kami membuka pintu di pusat bisnis Jakarta dan denyut kreatif Surabaya.
+                </p>
+            </div>
+            <div class="vision-mission-container">
+                <div class="card">
+                    <h3>Visi Kami</h3>
+                    <p>Menjadi mitra digital terdepan di Indonesia yang tumbuh bersama klien kami, mengubah setiap tantangan menjadi peluang dan setiap ide menjadi kenyataan yang berdampak.</p>
+                </div>
+                <div class="card">
+                    <h3>Misi Kami</h3>
+                    <ul>
+                        <li><strong>Mendengarkan:</strong> Menggali inti masalah untuk menemukan solusi yang paling tepat sasaran.</li>
+                        <li><strong>Menciptakan:</strong> Memadukan teknologi dengan kreativitas otentik untuk karya yang fungsional.</li>
+                        <li><strong>Memberdayakan:</strong> Membangun solusi yang memberikan dampak nyata bagi pertumbuhan bisnis Anda.</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section id="headquarters" class="headquarters-section">
+            <h2>Our Headquarter</h2>
+            <div class="city-container">
+                <div class="city"><div class="circle"></div><p>Jakarta</p></div>
+                <div class="city"><div class="circle"></div><p>Bandung</p></div>
+                <div class="city"><div class="circle"></div><p>Surabaya</p></div>
+            </div>
+        </section>
+
+        <section id="message-us" class="message-us-section">
+            <h2>Message Us</h2>
+            <div class="form-container">
+                <form id="message-form">
+                    <div class="form-group"><label for="nama">Nama:</label><input type="text" id="nama" name="nama" required></div>
+                    <div class="form-group"><label for="email">Email:</label><input type="email" id="email" name="email" required></div>
+                    <div class="form-group"><label for="telepon">Nomor Telepon:</label><input type="tel" id="telepon" name="telepon" required></div>
+                    <div class="form-group"><label for="pesan">Pesan:</label><textarea id="pesan" name="pesan" rows="4" required></textarea></div>
+                    <button type="submit">Submit</button>
+                </form>
+                <div class="form-output">
+                    <p><strong>Current Time:</strong> <span id="display-time">-</span></p>
+                    <p><strong>Nama:</strong> <span id="display-nama">-</span></p>
+                    <p><strong>Email:</strong> <span id="display-email">-</span></p>
+                    <p><strong>Nomor Telepon:</strong> <span id="display-telepon">-</span></p>
+                    <p><strong>Pesan:</strong> <span id="display-pesan">-</span></p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>Created by Michaeljo</p>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>

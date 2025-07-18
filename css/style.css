@@ -1,0 +1,153 @@
+/* Pengaturan Dasar */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+/* Header dan Navigasi */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    background-color: #fff;
+    border-bottom: 1px solid #ddd;
+}
+
+.logo {
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav li {
+    margin-left: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+/* Konten Utama */
+main {
+    padding: 2rem;
+}
+
+section {
+    margin-bottom: 2rem;
+    background-color: #fff;
+    padding: 2rem;
+    border-radius: 8px;
+}
+
+/* Banner */
+.banner-image {
+    width: 100%;
+    height: auto;
+    margin-top: 1rem;
+}
+
+/* Kantor Pusat */
+.headquarters-section h2, .message-us-section h2, .welcome-section h1 {
+    text-align: center;
+    margin-bottom: 1.5rem;
+}
+
+.city-container {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.city .circle {
+    width: 100px;
+    height: 100px;
+    background-color: #e0e0e0;
+    border-radius: 50%;
+    margin: 0 auto 10px;
+    border: 1px solid #ccc;
+}
+
+/* Formulir Message Us */
+.form-container {
+    display: flex;
+    gap: 2rem; /* Jarak antara form dan output */
+}
+
+form {
+    flex: 1; /* Form mengambil setengah bagian */
+}
+
+.form-output {
+    flex: 1; /* Output mengambil setengah bagian */
+    background-color: #f9f9f9;
+    padding: 1.5rem;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.form-group {
+    margin-bottom: 1rem;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+textarea {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box; /* Agar padding tidak menambah lebar */
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 1rem;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 1rem;
+    background-color: #333;
+    color: white;
+}
+
+/* Desain Responsif untuk Mobile */
+@media (max-width: 768px) {
+    .form-container {
+        flex-direction: column; /* Ubah layout menjadi kolom */
+    }
+
+    .city-container {
+        flex-direction: column;
+        align-items: center;
+        gap: 2rem;
+    }
+}
